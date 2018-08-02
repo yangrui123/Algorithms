@@ -19,6 +19,7 @@ def reconstruct_binarytree(preorder, inorder):
     root.right = right
     return root
 
+
 preorder = [1,2,4,7,3,5,6,8]
 inorder = [4,7,2,1,5,3,8,6]
 root = reconstruct_binarytree(preorder, inorder)
